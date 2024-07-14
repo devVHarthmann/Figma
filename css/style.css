@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: black;
+    overflow-x: hidden;
+}
+
+#cabecalho {
+    height: 5vw;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+    justify-content: space-between;
+}
+
+#contLogo {
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#logo {
+    width: 3vw;
+    height: 3vw;
+}
+
+#titulo {
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+#princ {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 15pt;
+    margin-right: 3vw;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 30px;
+    transition: background-color 0.5s ease-in-out;
+}
+
+#princ:hover {
+    border-radius: 30px;
+    background-color: #E0E0E0;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#tI {
+    margin-top: 5px;
+    width: 2.9vw;
+    height: 2.9vw;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 100%;
+
+}
+
+#contJ {
+    margin-top: 15vh;
+    justify-content: center;
+    width: auto;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+}
+
+.janela {
+    border-radius: 15px;
+    width: 22vw;
+    height: 22vw;
+    border: 1px solid #E0E0E0;
+}
+
+.jH {
+    height: 14vh;
+    border-bottom: 1px solid #E0E0E0;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.jM {
+    height: 23.6vh;
+    overflow-y: hidden;
+}
+
+.jF {
+    height: 9vh;
+    border-top: 1px solid #E0E0E0;
+    background-color: rgba(82, 70, 70, 0.192);
+
+}
+
+.janelaP .jF {
+    height: 10.3vh;
+    border-top: 1px solid #E0E0E0;
+    background-color: rgba(82, 70, 70, 0.192);
+
+}
+
+#j1 .jH {
+    background-color: #F24E1E;
+}
+
+#j2 .jH {
+    background-color: #A259FF;
+}
+
+#j3 .jH {
+    background-color: #0ACF83;
+}
+
+#j4 .jH {
+    background-color: #1ABCFE;
+}
+
+.titJ {
+    font-weight: 400;
+    margin-left: 6%;
+    font-size: larger;
+}
+
+.tit {
+    font-weight: 400;
+
+    font-size: larger;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+#jV .jH {
+    background-color: red;
+}
+
+#jB .jH {
+    background-color: yellow;
+}
+
+#jO .jH {
+    background-color: rgb(194, 7, 194);
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+.janelaP {
+    border-radius: 15px;
+    width: 22vw;
+    height: 28vw;
+    border: 1px solid #E0E0E0;
+}
+
+.janelaP .jM {
+    height: 35vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.janelaP .jH {
+    justify-content: center;
+}
+
+.janelaP .jF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.janelaP .jF a img {
+    margin-top: 5px;
+}
+
+#menuInt {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#containerS{
+    width: 70vw;
+    min-height: 86vh;
+    height: auto;
+    border-left: 2px solid #E0E0E0;
+    border-right: 2px solid #E0E0E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#containerS h1{
+    
+    font-size: 30pt;
+    font-weight: normal;
+}
+#containerS p{
+    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+#colab{
+    margin-bottom: 10vh;
+    border: 1px solid black;
+}
+p a{
+    color: blue;
+}
+@media (max-width: 850px){
+        #cabecalho{
+            height: 10vh;
+        }
+        .janela{
+            width: 300px;
+            height: 300px;
+        }
+        .janela .jM{
+            height: 150px;
+        }
+        .janela .jH{
+            height: 70px;
+        }
+        .janela .jF{
+            height: 75px;
+        }
+        #logo{
+            width: 50px;
+            height: 50px;
+        }
+        #tI{
+            width: 50px;
+            height: 50px;
+        }
+        #containerS{
+            width: 80vw;
+        }
+        #shops{
+            width: 500px;
+            height: 600px;
+        }
+        #colab{
+            width: 600px;
+        }
+        .janelaP{
+            width: 600px;
+            height: 500px;
+        }
+        .janelaP .jH{
+            height:95px;
+        }
+        .janelaP .jM{
+            height: 300px;
+        }
+        .janelaP .jF{
+            height: 100px;
+        }
+        .tit{
+            font-size: 30pt;
+        }
+}
+@media (max-width: 430px){
+    #contJ{
+       margin-bottom: 50px;
+    }
+    #cabecalho{
+        height: 150px;
+    }
+    .janela .jF{
+        height: 78px;
+    }
+    #principal{
+        height: auto;
+        width:auto;
+    }
+    #youts{
+        width: 220px;
+        height: 135px;
+    }
+    #containerS h1{
+        font-size: 24pt;
+    }
+    #colab{
+        width: 250px;
+        margin-top: 10px;
+    }
+    #shops{
+        width: 300px;
+    }
+    .janelaP{
+        width: 300px;
+        height: 350px;
+    }
+    .janelaP .jH{
+        height: 80px;
+    }
+    .janelaP .jM{
+        height: 190px;
+    }
+    .janelaP .jF{
+        height: 80px;
+    }
+    .tit{
+        font-size: 20pt;
+    }
+}
