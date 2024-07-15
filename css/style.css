@@ -86,9 +86,10 @@
 
 .janela {
     border-radius: 15px;
-    width: 22vw;
-    height: 22vw;
+    width: 300px;
+    height: 300px;
     border: 1px solid #E0E0E0;
+    overflow-y: hidden;
 }
 
 .jH {
