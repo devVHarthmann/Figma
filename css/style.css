@@ -230,6 +230,10 @@ main a:hover {
 p a{
     color: blue;
 }
+#youts{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 @media (max-width: 850px){
         #cabecalho{
             height: 150px;
