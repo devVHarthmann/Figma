@@ -232,7 +232,7 @@ p a{
 }
 @media (max-width: 850px){
         #cabecalho{
-            height: 10vh;
+            height: 150px;
         }
         .janela{
             width: 300px;
