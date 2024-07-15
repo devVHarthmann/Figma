@@ -245,7 +245,7 @@ p a{
             height: 70px;
         }
         .janela .jF{
-            height: 78px;
+            height: 83px;
         }
         #logo{
             width: 50px;
@@ -282,7 +282,7 @@ p a{
             font-size: 30pt;
         }
 }
-@media (max-width: 430px){
+@media (max-width: 650px){
     #contJ{
        margin-bottom: 50px;
     }
