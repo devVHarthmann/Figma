@@ -235,6 +235,9 @@ p a{
     margin-top: 20px;
     margin-bottom: 40px;
 }
+h2{
+    text-align: center;
+}
 @media (max-width: 850px){
         #cabecalho{
             height: 150px;
